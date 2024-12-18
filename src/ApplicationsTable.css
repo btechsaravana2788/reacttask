@@ -1,0 +1,94 @@
+/* src/ApplicationsTable.css */
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 20px;
+}
+
+.applications-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.applications-table th,
+.applications-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.applications-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.applications-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .applications-table th,
+  .applications-table td {
+    padding: 12px 8px;
+  }
+
+  .applications-table {
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .applications-table th {
+    font-size: 14px;
+  }
+
+  .applications-table td {
+    font-size: 12px;
+  }
+}
+/* ApplicationsTable.css */
+.table-container {
+  margin: 20px;
+}
+
+.search-bar {
+  margin-bottom: 15px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 300px;
+}
+
+.applications-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.applications-table th, .applications-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.applications-table th {
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  font-weight: bold;
+}
